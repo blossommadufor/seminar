@@ -5,13 +5,13 @@ const Hero = () => {
   return (
     <div
       className="relative h-screen bg-cover bg-center"
-      style={{ backgroundImage: "url('/assets/hero1.jpg')" }}
+      style={{ backgroundImage: "url('/assets/hero1.jpg')"}}
     >
       <div className="absolute inset-0 bg-[rgba(38,41,77,0.8)]"></div>
 
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-6 pt-16">
+      <div className="relative z-10 flex flex-col items-center lg:justify-center h-full text-white text-center px-6 lg:pt-16 pt-36 md:pt-44">
 
-        <h2 className="md:text-4xl text-3xl lg:mt-8 xl:mt-0 font-bold tracking-wide ">
+        <h2 className="md:text-4xl text-3xl lg:mt-8 xl:mt-0 font-bold">
           ANNUAL BIBLE LECTURESHIP 2025
         </h2>
 

@@ -55,7 +55,7 @@ const Tag = () => {
             </div>
             <div className='text-center'>
               <h3 className="text-lg font-semibold pb-2 ">Mail</h3>
-              <p>P.O Box 3135 Garki Abuja, Nigeria</p>
+              <p>P.O Box 3135 Garki Abuja, Nigeria <br/>cocnyanya@gmail.com</p>
             </div>
           </div>
         </div>
