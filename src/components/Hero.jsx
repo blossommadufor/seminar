@@ -11,7 +11,7 @@ const Hero = () => {
 
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-6 pt-16">
 
-        <h2 className="md:text-4xl text-2xl lg:mt-8 xl:mt-0 font-bold tracking-wide ">
+        <h2 className="md:text-4xl text-3xl lg:mt-8 xl:mt-0 font-bold tracking-wide ">
           ANNUAL BIBLE LECTURESHIP 2025
         </h2>
 
@@ -29,7 +29,7 @@ const Hero = () => {
         <div className="mt-10">
           <Countdown />
         </div>
-        
+
       </div>
     </div>
   );

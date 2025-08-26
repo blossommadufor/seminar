@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="py-20 bg-gray-100 flex flex-col md:flex-row gap-5 md:gap-0 justify-evenly items-center"
+      className="md:py-20 py-10 bg-gray-100 flex flex-col md:flex-row gap-5 md:gap-0 justify-evenly items-center"
     >
       <div className="md:w-3/6 items-center px-6 gap-10">
         <div className="">

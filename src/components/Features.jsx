@@ -14,7 +14,7 @@ const Features = () => {
         className="pt-20 md:pb-44 pb-10 md:px-10 px-8 xl:px-16 bg-secondary"
       >
         <div className="text-gray-200 pb-10">
-          <h2 className="lg:text-5xl text-3xl text-center pb-6">
+          <h2 className="lg:text-5xl text-3xl text-center pb-6 font-bold">
             Why You Should Join?
           </h2>
 
