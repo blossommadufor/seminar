@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+
+:root{
+    --color-primary: #26294D;
+    --color-secondary: #282E63;
+    --color-light: #4663D8;
+}
+
+h1,h2,h3{
+    font-family: "Open Sans", sans-serif;
+}
+
+p,li{
+    font-family: "Outfit", sans-serif;
+}
+
+.dark-nav{
+    background-color: #26294D;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
