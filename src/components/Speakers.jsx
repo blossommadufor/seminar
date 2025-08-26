@@ -5,9 +5,9 @@ const Speakers = () => {
   return (
     <div id="speaker" className="md:pt-40 pt-10 pb-20 bg-primary">
       <div>
-        <h2 className="text-center md:text-5xl text-3xl text-gray-200 pb-10">Meet Our Speakers</h2>
+        <h2 className="text-center md:text-5xl text-3xl text-gray-200 pb-10 font-bold">Meet Our Speakers</h2>
       </div>
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-10  px-16">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-10  lg:px-16 md:px-10 px-8">
         <div className="rounded-xl shadow-xl bg-secondary">
           <div className="h-60">
             <img

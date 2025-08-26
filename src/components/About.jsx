@@ -27,7 +27,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="md:w-2/6 px-32 md:px-0">
+      <div className="md:w-2/6 px-20 md:px-0">
         <img src={about} className="relative z-10" />
       </div>
     </div>

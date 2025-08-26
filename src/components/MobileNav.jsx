@@ -8,7 +8,7 @@ export default function MobileNav({ toggle }) {
     <div className="fixed w-full px-8 pt-6 pb-6 top-0 left-0 bg-white">
       <div className="wrap w-full flex items-center justify-between h-20">
         <div>
-          <img src={logo} className="w-20" />
+          <img src={logo} className="w-16" />
         </div>
         <FontAwesomeIcon
           onClick={toggle}

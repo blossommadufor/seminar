@@ -22,10 +22,10 @@ const Navbar = () => {
         ${sticky ? 'bg-white shadow-md' : 'bg-transparent'}
       `}
     >
-      <div className="container mx-auto flex justify-between items-center py-2 px-6">
-      
+      <div className="container mx-auto flex justify-between items-center py-2 md:px-6">
+
         <div className='py-2'>
-          <img src={logo} alt="Logo" className="w-20" />
+          <img src={logo} alt="Logo" className="md:w-20 w-16" />
         </div>
 
         <ul className={`md:flex hidden lg:gap-10 md:gap-7 text-lg ${sticky ? 'text-primary' : 'text-white'}`}>
@@ -47,7 +47,7 @@ const Navbar = () => {
           <FontAwesomeIcon
             onClick={() => setShowNav(true)}
             icon={faBars}
-            className={` text-3xl ${sticky ? 'text-primary' : 'text-white'}`}
+            className={` text-xl ${sticky ? 'text-primary' : 'text-white'}`}
           />
         </div>
         {showNav && <MobileNav toggle={() => setShowNav(false)} />}

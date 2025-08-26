@@ -11,7 +11,8 @@ const Register = () => {
           Fill in your details to complete your registration
         </p>
        </div>
-      <div className="max-w-2xl mx-auto bg-secondary p-10  rounded-2xl shadow-lg">
+
+      <div className="max-w-2xl mx-auto bg-secondary py-10 px-5 md:px-10  rounded-2xl shadow-lg">
 
         <form className="space-y-6 ">
           <div>
