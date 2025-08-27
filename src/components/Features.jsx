@@ -2,8 +2,13 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBookBible,
+  faChalkboardTeacher,
   faFire,
+  faHandsPraying,
+  faPray,
+  faTools,
   faUsers,
+  faUtensils,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Features = () => {
@@ -15,14 +20,16 @@ const Features = () => {
       >
         <div className="text-gray-200 pb-10">
           <h2 className="lg:text-5xl text-3xl text-center pb-6 font-bold">
-            Why You Should Join?
+            What To Expect
           </h2>
 
           <p className=" text-center md:text-lg">
-            Come and experience the power of God's Word as we explore His
-            sovereignty over life's challenges.
-            <br /> A time of hope, encouragement, and spiritual revival awaits
-            you.
+            The Lectureship will be filled with joyful singing, heartfelt
+            worship, and rich moments of fellowship that will refresh your
+            spirit.
+            <br /> Come and experience the power of God's Word as we explore His
+            sovereignty over life's challenges. A time of hope, encouragement,
+            and spiritual revival awaits you.
           </p>
         </div>
 
@@ -37,10 +44,10 @@ const Features = () => {
 
             <div>
               <h3 className="pb-5 font-semibold text-xl">
-                Biblical Teaching & Learning
+                Biblical Lectures
               </h3>
               <p>
-                Sit under Spirit-led ministers who will open the Scriptures in
+                Sit under Spirit-led speakers who will open the Scriptures in
                 ways that bring clarity and fresh revelation. Each teaching is
                 designed to help you grow in faith, understand God's
                 sovereignty, and apply His Word to life's real challenges.
@@ -58,7 +65,7 @@ const Features = () => {
 
             <div>
               <h3 className="pb-5 text-gray-200 font-semibold text-xl">
-                Fellowship & Community
+                Fellowship
               </h3>
               <p>
                 Be part of a vibrant community of believers who encourage one
@@ -71,16 +78,67 @@ const Features = () => {
 
           <div className="flex bg-primary py-10 gap-5 px-5">
             <div>
-              <FontAwesomeIcon icon={faFire} className="text-3xl text-light" />
+              <FontAwesomeIcon icon={faChalkboardTeacher} className="text-3xl text-light" />
             </div>
 
             <div className="text-gray-200">
-              <h3 className="pb-5 font-semibold text-xl">Spiritual Growth</h3>
+              <h3 className="pb-5 font-semibold text-xl">Workshop</h3>
               <p>
-                This conference is a chance to renew your commitment, deepen
-                your relationship with God, and ignite your spiritual passion.
-                Leave refreshed, equipped, and ready to live boldly in the light
-                of God's sovereignty.
+              Take part in dynamic workshops designed to inspire growth and transformation. These sessions offer practical guidance and spiritual insight to help you apply God’s truth with confidence in your daily life.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex bg-light py-10 gap-5 px-5 text-gray-200">
+            <div>
+              <FontAwesomeIcon
+                icon={faUtensils}
+                className="text-primary text-3xl"
+              />
+            </div>
+
+            <div>
+              <h3 className="pb-5 text-gray-200 font-semibold text-xl">
+                Refreshments
+              </h3>
+              <p>
+              Delicious meals and snacks will be served to keep you refreshed and satisfied during the event.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex bg-primary py-10 gap-5 px-5 text-gray-200">
+            <div>
+              <FontAwesomeIcon
+                icon={faHandsPraying}
+                className="text-3xl text-light"
+              />
+            </div>
+
+            <div>
+              <h3 className="pb-5 font-semibold text-xl">
+                Worship
+              </h3>
+              <p>
+              Experience a sacred atmosphere of worship where burdens are lifted and hearts are renewed.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex bg-light py-10 gap-5 px-5 text-gray-200">
+            <div>
+              <FontAwesomeIcon
+                icon={faPray}
+                className="text-primary text-3xl"
+              />
+            </div>
+
+            <div>
+              <h3 className="pb-5 text-gray-200 font-semibold text-xl">
+              Prayer & Intercession
+              </h3>
+              <p>
+              Take part in heartfelt times of prayer where we lay our burdens before God and lift one another up.
               </p>
             </div>
           </div>

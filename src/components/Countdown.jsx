@@ -41,30 +41,30 @@ const Countdown = () => {
   }, [eventDate]);
 
   return (
-    <div className="flex justify-center mt-10">
-      <div className="bg-secondary py-7 md:px-10 lg:px-24 shadow-lg flex flex-wrap justify-center gap-3 w-screen md:gap-10 text-center md:w-max">
+    <div className="flex justify-center ">
+      <div className="bg-secondary py-3 md:py-7 md:px-10 lg:px-24 shadow-lg flex flex-wrap justify-center gap-3 w-screen md:gap-10 text-center md:w-max">
         {/* Days */}
-        <div className="bg-light text-white md:py-6 md:px-8 py-3 px-4 rounded-xl">
+        <div className="bg-light text-white md:py-6 md:px-8 py-2 px-4 rounded-xl">
           <span className="md:text-3xl font-bold">{timeLeft.days}</span>
-          <p className="text-sm mt-2">Days</p>
+          <p className="text-xs md:text-sm mt-2">Days</p>
         </div>
 
         {/* Hours */}
-        <div className="bg-light text-white md:py-6 md:px-8 py-3 px-4 rounded-xl">
+        <div className="bg-light text-white md:py-6 md:px-8 py-2 px-4 rounded-xl">
           <span className="md:text-3xl font-bold">{timeLeft.hours}</span>
-          <p className="text-sm mt-2">Hours</p>
+          <p className="text-xs md:text-sm mt-2">Hours</p>
         </div>
 
         {/* Minutes */}
-        <div className="bg-light text-white md:py-6 md:px-8 py-3 px-4 rounded-xl">
+        <div className="bg-light text-white md:py-6 md:px-8 py-2 px-4 rounded-xl">
           <span className="md:text-3xl font-bold">{timeLeft.minutes}</span>
-          <p className="text-sm mt-2">Minutes</p>
+          <p className="text-xs md:text-sm mt-2">Minutes</p>
         </div>
 
         {/* Seconds */}
-        <div className="bg-light text-white md:py-6 md:px-8 py-3 px-4 rounded-xl">
+        <div className="bg-light text-white md:py-6 md:px-8 py-2 px-4 rounded-xl">
           <span className="md:text-3xl font-bold">{timeLeft.seconds}</span>
-          <p className="text-sm mt-2">Seconds</p>
+          <p className="text-xs md:text-sm mt-2">Seconds</p>
         </div>
       </div>
     </div>

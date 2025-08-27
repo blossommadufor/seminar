@@ -7,7 +7,7 @@ const Speakers = () => {
       <div>
         <h2 className="text-center md:text-5xl text-3xl text-gray-200 pb-10 font-bold">Meet Our Speakers</h2>
       </div>
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-10  lg:px-16 md:px-10 px-8">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10  lg:px-16 md:px-10 px-8">
         <div className="rounded-xl shadow-xl bg-secondary">
           <div className="h-60">
             <img
@@ -42,19 +42,6 @@ const Speakers = () => {
             />
           </div>
           <div className="bg-secondary rounded-b-xl text-center py-6 ">
-            <h3 className="text-white text-xl font-semibold pb-1">Name</h3>
-            <p className="text-white ">Title or Topic</p>
-          </div>
-        </div>
-
-        <div className="rounded-xl shadow-xl bg-secondary">
-          <div className="h-60">
-            <img
-              src={speaker}
-              className="p-4 rounded-t-xl h-full w-full object-cover"
-            />
-          </div>
-          <div className="bg-secondary text-center rounded-b-xl py-6 ">
             <h3 className="text-white text-xl font-semibold pb-1">Name</h3>
             <p className="text-white ">Title or Topic</p>
           </div>
