@@ -8,7 +8,7 @@ import {
   faPhone,
   faRadio,
 } from "@fortawesome/free-solid-svg-icons";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -20,7 +20,25 @@ const Footer = () => {
         <h2 className="text-2xl text-center pt-4 pb-5">
           Church Of Christ Nyanya
         </h2>
-        <p className="text-center">Romans 16:16 - "Salute one another with a holy kiss. The churches of Christ salute you."</p>
+        <p className="text-center">
+          Romans 16:16 - "Salute one another with a holy kiss. The churches of
+          Christ salute you."
+        </p>
+
+        <div className="flex pt-8 gap-5">
+          <div className="flex justify-center items-center bg-secondary rounded-full w-10 h-10 flex-shrink-0">
+            <FontAwesomeIcon
+              icon={faFacebook}
+              className="text-gray-200 text-lg"
+            />
+          </div>
+          <div className="flex justify-center items-center bg-secondary rounded-full w-10 h-10 flex-shrink-0">
+            <FontAwesomeIcon
+              icon={faYoutube}
+              className="text-gray-200 text-lg"
+            />
+          </div>
+        </div>
       </div>
 
       <div className="text-gray-200">
@@ -30,13 +48,6 @@ const Footer = () => {
 
         <div className="flex flex-col gap-5">
           <div className="flex items-center gap-4">
-            <div className="flex justify-center items-center bg-secondary rounded-full w-10 h-10 flex-shrink-0">
-              <FontAwesomeIcon
-                icon={faChurch}
-                className="text-gray-200 text-lg"
-              />
-            </div>
-
             <div>
               <p>
                 Sunday Worship <br />
@@ -45,13 +56,8 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <div className="flex justify-center items-center bg-secondary rounded-full w-10 h-10 flex-shrink-0">
-              <FontAwesomeIcon
-                icon={faChurch}
-                className="text-gray-200 text-lg"
-              />
-            </div>
             <div>
+              {" "}
               <p>
                 Tuesday Youth Class
                 <br /> Time: 7 - 7:30am
@@ -60,13 +66,8 @@ const Footer = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="flex justify-center items-center bg-secondary rounded-full w-10 h-10 flex-shrink-0">
-              <FontAwesomeIcon
-                icon={faChurch}
-                className="text-gray-200 text-lg"
-              />
-            </div>
             <div>
+              {" "}
               <p>
                 Tuesday Song Practice <br /> Time: 7pm - 8pm
               </p>
@@ -74,13 +75,8 @@ const Footer = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="flex justify-center items-center bg-secondary rounded-full w-10 h-10 flex-shrink-0">
-              <FontAwesomeIcon
-                icon={faChurch}
-                className="text-gray-200 text-lg"
-              />
-            </div>
             <div>
+              {" "}
               <p>
                 Thursday Sister Class <br /> Time: 5pm - 6pm
               </p>
@@ -88,13 +84,8 @@ const Footer = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="flex justify-center items-center bg-secondary rounded-full w-10 h-10 flex-shrink-0">
-              <FontAwesomeIcon
-                icon={faChurch}
-                className="text-gray-200 text-lg"
-              />
-            </div>
             <div>
+              {" "}
               <p>
                 Thursday General Bible Class <br /> Time: 6pm - 7pm
               </p>
@@ -110,12 +101,6 @@ const Footer = () => {
 
         <div className="flex flex-col gap-5">
           <div className="flex items-center gap-4">
-            <div className="flex justify-center items-center bg-secondary rounded-full w-10 h-10 flex-shrink-0">
-              <FontAwesomeIcon
-                icon={faRadio}
-                className="text-gray-200 text-lg"
-              />
-            </div>
             <div>
               <p>
                 RayPower FM 100.5 - Every Sunday <br /> Time: 7 - 7:30am
@@ -124,12 +109,6 @@ const Footer = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="flex justify-center items-center bg-secondary rounded-full w-10 h-10 flex-shrink-0">
-              <FontAwesomeIcon
-                icon={faRadio}
-                className="text-gray-200 text-lg"
-              />
-            </div>
             <div>
               <p>
                 ITV Channel 130 - Every Saturday <br /> Time: 6 - 6:30pm
@@ -141,9 +120,7 @@ const Footer = () => {
 
       <div>
         <div className="flex flex-col gap-5 text-gray-200">
-          <h3 className=" font-semibold text-lg text-cente">
-            CONTACT INFO
-          </h3>
+          <h3 className=" font-semibold text-lg text-cente">CONTACT INFO</h3>
           <div className="flex items-center gap-4">
             <div className="flex justify-center items-center bg-secondary rounded-full w-10 h-10">
               <FontAwesomeIcon
