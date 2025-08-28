@@ -10,6 +10,7 @@ export default {
         secondary: "var(--color-secondary)",
         light: "var(--color-light)",
       },
+      
     },
   },
   plugins: [

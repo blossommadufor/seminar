@@ -2,11 +2,9 @@ import React from "react";
 import logo from "../../public/assets/logo3.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faChurch,
   faEnvelope,
   faLocationDot,
   faPhone,
-  faRadio,
 } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faYoutube } from "@fortawesome/free-brands-svg-icons";
 

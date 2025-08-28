@@ -5,11 +5,11 @@ const About = () => {
   return (
     <div
       id="about"
-      className="md:py-20 py-10 bg-gray-100 flex flex-col lg:flex-row gap-5 md:gap-10 lg:gap-0 justify-evenly md:px-10 lg:px-12 xl:px-16 items-center"
+      className="md:py-20 lg:py-24 py-10 bg-gray-100 flex flex-col lg:flex-row gap-5 md:gap-10 lg:gap-0 justify-evenly md:px-10 lg:px-12 xl:px-16 items-center"
     >
       <div className="lg:w-3/6 items-center px-6 gap-10">
         <div className="">
-          <h2 className="md:text-5xl text-3xl font-bold text-secondary mb-6">
+          <h2 className="md:text-4xl text-3xl font-bold text-secondary mb-6">
             About Us
           </h2>
 
@@ -27,7 +27,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="lg:w-2/6 md:px-0 px-8">
+      <div className="lg:w-3/6 md:px-0 px-8">
         <img src={about} className="rounded-2xl" />
       </div>
     </div>
