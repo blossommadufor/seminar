@@ -1,12 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import logo from "../../public/assets/logo3.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-import MobileNav from "./MobileNav";
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
-  const [showNav, setShowNav] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,29 +24,14 @@ const Navbar = () => {
           <img src={logo} alt="Logo" className="md:w-20 w-16" />
         </div>
 
-        <ul className={`md:flex hidden lg:gap-10 md:gap-7 text-lg ${sticky ? 'text-primary' : 'text-white'}`}>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#schedule">Schedule</a></li>
-          <li><a href="#speaker">Speakers</a></li>
-        </ul>
-
         <div>
           <a href='#register'>
-            <button className="bg-blue-600 md:block hidden text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
-              Register Now
+            <button className="bg-blue-600 text-white px-5 py-3 rounded-lg hover:bg-blue-700 transition md:text-xl">
+              REGISTER NOW
             </button>
           </a>
         </div>
       </div>
-      <div className="md:hidden cursor-pointer">
-          <FontAwesomeIcon
-            onClick={() => setShowNav(true)}
-            icon={faBars}
-            className={` text-xl ${sticky ? 'text-primary' : 'text-white'}`}
-          />
-        </div>
-        {showNav && <MobileNav toggle={() => setShowNav(false)} />}
     </div>
   )
 }

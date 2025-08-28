@@ -1,49 +1,55 @@
+import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import speaker from "../../public/assets/placeholder.jpg";
 
 const Speakers = () => {
   return (
     <div id="speaker" className="md:pt-40 pt-10 pb-20 bg-primary">
       <div>
-        <h2 className="text-center md:text-5xl text-3xl text-gray-200 pb-10 font-bold">Meet Our Speakers</h2>
+        <h2 className="text-center md:text-5xl text-3xl text-gray-200 pb-10 font-bold">
+          Meet Our Speakers
+        </h2>
       </div>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10  lg:px-16 md:px-10 px-8">
-        <div className="rounded-xl shadow-xl bg-secondary">
-          <div className="h-60">
-            <img
-              src={speaker}
-              className="p-4 rounded-t-xl h-full w-full object-cover"
-            />
+      <div className="grid md:grid-cols-2 gap-10  lg:px-16 md:px-10 px-8">
+        <div className="bg-gray-200 text-primary py-6 flex flex-col px-6">
+          <div className="flex items-center justify-center pb-5">
+            <div className="w-12 h-12 rounded-full flex items-center justify-center bg-light">
+              <FontAwesomeIcon icon={faBookOpen} className="text-gray-200 text-2xl" />
+            </div>
           </div>
-          <div className="bg-secondary rounded-b-xl text-center py-6 ">
-            <h3 className="text-white text-xl font-semibold pb-1">Name</h3>
-            <p className="text-white ">Title or Topic</p>
+          <div className="">
+            <h3 className=" text-2xl font-semibold pb-2">
+              LECTURE I
+            </h3>
+            <p className=" text-xl pb-2">
+              God's Sovereignty in the Midst of Suffering
+            </p>
+            <p className="pb-6">~ Evangelist Abiodun Adegoroye ~</p>
+
+            <div>
+            <button className="bg-blue-700 text-gray-200 px-4 py-2 hover:bg-secondary">Download Lecture</button>
+            </div>
           </div>
         </div>
 
-        <div className="rounded-xl shadow-xl bg-secondary">
-          <div className="h-60">
-            <img
-              src={speaker}
-              className="p-4 rounded-t-xl h-full w-full object-cover"
-            />
+        <div className="bg-gray-200 text-primary py-6 flex flex-col px-6">
+          <div className="flex items-center justify-center pb-5">
+            <div className="w-12 h-12 rounded-full flex items-center justify-center bg-light">
+              <FontAwesomeIcon icon={faBookOpen} className="text-gray-200 text-2xl" />
+            </div>
           </div>
-          <div className="bg-secondary rounded-b-xl text-center py-6 ">
-            <h3 className="text-white text-xl font-semibold pb-1">Name</h3>
-            <p className="text-white ">Title or Topic</p>
-          </div>
-        </div>
+          <div className="">
+            <h3 className=" text-2xl font-semibold pb-2">
+              LECTURE II
+            </h3>
+            <p className=" text-xl pb-2">
+              God's Sovereignty: The Way, The Truth and The Life
+            </p>
+            <p className="pb-6">~ Evangelist Felix Ekpenyong ~</p>
 
-        <div className="rounded-xl shadow-xl bg-secondary">
-          <div className="h-60">
-            <img
-              src={speaker}
-              className="p-4 rounded-t-xl h-full w-full object-cover"
-            />
-          </div>
-          <div className="bg-secondary rounded-b-xl text-center py-6 ">
-            <h3 className="text-white text-xl font-semibold pb-1">Name</h3>
-            <p className="text-white ">Title or Topic</p>
+            <div>
+            <button className="bg-blue-700 text-gray-200 px-4 py-2 hover:bg-secondary">Download Lecture</button>
+            </div>
           </div>
         </div>
       </div>

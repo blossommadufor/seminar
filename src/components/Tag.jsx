@@ -42,7 +42,7 @@ const Tag = () => {
             </div>
             <div className='text-center'>
               <h3 className="text-lg font-semibold pb-2">Speakers</h3>
-              <p>3 Speakers</p>
+              <p>2 Speakers</p>
             </div>
           </div>
 
@@ -55,7 +55,7 @@ const Tag = () => {
             </div>
             <div className='text-center'>
               <h3 className="text-lg font-semibold pb-2 ">Mail</h3>
-              <p>P.O Box 3135 Garki Abuja, Nigeria <br/>cocnyanya@gmail.com</p>
+              <p>cocnyanya@gmail.com</p>
             </div>
           </div>
         </div>
