@@ -18,15 +18,15 @@ const Navbar = () => {
         ${sticky ? 'bg-white shadow-md' : 'bg-transparent'}
       `}
     >
-      <div className="container mx-auto flex justify-between items-center py-2 md:px-6">
+      <div className="container mx-auto flex justify-between items-center md:px-6">
 
         <div className='py-2'>
-          <img src={logo} alt="Logo" className="md:w-20 w-16" />
+          <img src={logo} alt="Logo" className="md:w-16 w-12" />
         </div>
 
         <div>
           <a href='#register'>
-            <button className="bg-blue-600 text-white px-5 py-3 rounded-lg hover:bg-blue-700 transition md:text-xl">
+            <button className="bg-blue-600 text-white px-5 py-3 rounded-lg hover:bg-blue-700 transition ">
               REGISTER NOW
             </button>
           </a>

@@ -10,7 +10,7 @@ import { faFacebook, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
-    <div className="bg-light py-10 md:px-20 grid  xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-10 justify-center px-8">
+    <div className="bg-light py-16 md:px-20 grid  xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-10 justify-center px-8">
       <div className="flex flex-col text-gray-200 items-center col-span-">
         <div>
           <img src={logo} alt="" className="w-20" />
