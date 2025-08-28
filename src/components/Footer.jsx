@@ -20,7 +20,7 @@ const Footer = () => {
         <h2 className="text-2xl text-center pt-4 pb-5">
           Church Of Christ Nyanya
         </h2>
-        <p className="text-center">We are a family of believers committed to worshiping God in spirit and in truth, growing in His Word, and sharing the love of Christ with our community.</p>
+        <p className="text-center">Romans 16:16 - "Salute one another with a holy kiss. The churches of Christ salute you."</p>
       </div>
 
       <div className="text-gray-200">
