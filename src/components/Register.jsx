@@ -3,10 +3,10 @@ import register from "../../public/assets/register.png";
 
 const Register = () => {
   return (
-    <div className="md:py-16 lg:py-24 py-10 lg:px-16 md:px-10 px-8 bg-gray-200 flex flex-col lg:flex-row items-center gap-20">
+    <div className="md:py-16 lg:py-24 py-10 lg:px-16 md:px-10 px-5 bg-gray-200 flex flex-col lg:flex-row items-center gap-20 container mx-auto">
       <div className="lg:w-3/6">
         <div className="pb-4">
-          <h2 className="md:text-4xl text-3xl font-bold text-secondary pb-5 text-center">
+          <h2 className="lg:text-4xl text-3xl text-center pb-6 font-bold text-secondary">
             Register To Attend Our Lectureship
           </h2>
           <p className="text-light text-center mb-6">

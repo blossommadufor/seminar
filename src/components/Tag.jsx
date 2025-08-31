@@ -4,11 +4,11 @@ import React from 'react'
 
 const Tag = () => {
   return (
-    <div id="schedule" className="md:absolute md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 xl:w-[80%] md:w-[92%] text-primary md:pb-10">
+    <div id="schedule" className="container mx-auto md:absolute md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 xl:w-[80%] md:w-[92%] text-primary md:pb-10">
 
-        <div className=" py-10 bg-gray-200 lg:px-10 grid md:grid-cols-4  lg:gap-8 gap-3 px-4">
+        <div className=" py-10 bg-white lg:px-10 grid md:grid-cols-4  lg:gap-8 gap-3 px-4">
           <div className="items-center flex flex-col gap-5 md:pr-8 py-2">
-            <div>
+            <div className='border rounded-full p-3 border-light'>
               <FontAwesomeIcon
                 icon={faLocationDot}
                 className="text-2xl text-light"
@@ -21,7 +21,7 @@ const Tag = () => {
           </div>
 
           <div className="items-center flex flex-col gap-5 md:pr-8 py-2">
-            <div>
+            <div className='border rounded-full p-3 border-light'>
               <FontAwesomeIcon
                 icon={faCalendarAlt}
                 className="text-2xl text-light"
@@ -34,7 +34,7 @@ const Tag = () => {
           </div>
 
           <div className="items-center flex flex-col gap-5 py-2 md:pr-8">
-            <div>
+            <div className='border rounded-full p-3 border-light'>
               <FontAwesomeIcon
                 icon={faMicrophone}
                 className="text-2xl text-light"
@@ -47,7 +47,7 @@ const Tag = () => {
           </div>
 
           <div className="items-center flex flex-col gap-5 py-2 md:pr-8">
-            <div>
+            <div className='border rounded-full p-3 border-light'>
               <FontAwesomeIcon
                 icon={faEnvelope}
                 className="text-2xl text-light"

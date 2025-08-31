@@ -8,8 +8,8 @@ const images = [
   "/assets/hero4.jpg",
 ];
 
-const SLIDE_INTERVAL = 4000; 
-const TRANSITION_MS = 700; 
+const SLIDE_INTERVAL = 5000; 
+const TRANSITION_MS = 2000; 
 
 export default function Hero() {
   const containerRef = useRef(null);

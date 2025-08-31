@@ -5,34 +5,34 @@ import {
   faHandsPraying,
   faMusic,
   faPray,
+  faStethoscope,
   faUsers,
   faUtensils,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Features = () => {
   return (
-    <div>
+    <div
+        id="features" className="bg-secondary">
       <div
-        id="features"
-        className="pt-20 md:pb-52 lg:pb-60 pb-10 md:px-10 px-8 xl:px-16 bg-secondary"
+        className="pt-20 md:pb-52 lg:pb-60 pb-10 md:px-10 px-8 xl:px-16 container mx-auto"
       >
         <div className="text-gray-200 pb-10">
           <h2 className="lg:text-5xl text-3xl text-center pb-6 font-bold">
             What To Expect
           </h2>
 
-          <p className=" text-center md:text-lg">
+          <p className=" text-center md:text-lg max-w-4xl mx-auto">
             The Lectureship will be filled with joyful singing, heartfelt
             worship, and rich moments of fellowship that will refresh your
-            spirit.
-            <br /> Come and experience the power of God's Word as we explore His
+            spirit. Come and experience the power of God's Word as we explore His
             sovereignty over life's challenges. A time of hope, encouragement,
             and spiritual revival awaits you.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10 ">
-          <div className="flex bg-primary py-10 gap-5 px-5 text-gray-200">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 xl:gap-8">
+          <div className="flex flex-col xl:flex-row bg-primary py-10 gap-5 px-5 text-gray-200">
             <div>
               <FontAwesomeIcon
                 icon={faBookBible}
@@ -51,7 +51,7 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="flex bg-light py-10 gap-5 px-5 text-gray-200">
+          <div className="flex flex-col xl:flex-row bg-light py-10 gap-5 px-5 text-gray-200">
             <div>
               <FontAwesomeIcon
                 icon={faUsers}
@@ -70,7 +70,7 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="flex bg-primary py-10 gap-5 px-5">
+          <div className="flex flex-col xl:flex-row bg-primary py-10 gap-5 px-5">
             <div>
               <FontAwesomeIcon icon={faMusic} className="text-3xl text-light" />
             </div>
@@ -83,7 +83,7 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="flex bg-light py-10 gap-5 px-5 text-gray-200">
+          <div className="flex flex-col xl:flex-row bg-light py-10 gap-5 px-5 text-gray-200">
             <div>
               <FontAwesomeIcon
                 icon={faPray}
@@ -101,7 +101,7 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="flex bg-primary py-10 gap-5 px-5 text-gray-200">
+          <div className="flex flex-col xl:flex-row bg-primary py-10 gap-5 px-5 text-gray-200">
             <div>
               <FontAwesomeIcon
                 icon={faHandsPraying}
@@ -119,7 +119,24 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="flex bg-light py-10 gap-5 px-5 text-gray-200">
+          <div className="flex flex-col xl:flex-row bg-light py-10 gap-5 px-5 text-gray-200">
+            <div>
+              <FontAwesomeIcon
+                icon={faStethoscope}
+                className="text-primary text-3xl"
+              />
+            </div>
+
+            <div>
+              <h3 className="pb-5 text-gray-200 font-semibold text-xl">
+                Medical Outreach
+              </h3>
+              <p>
+              Free medical check-ups, health talks, and consultations will be offered after the event.
+              </p>
+            </div>
+          </div>
+          <div className="hidden fflex bg-light py-10 gap-5 px-5 text-gray-200">
             <div>
               <FontAwesomeIcon
                 icon={faUtensils}
