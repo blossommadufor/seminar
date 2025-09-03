@@ -168,7 +168,7 @@ const Program = () => {
         {programData.map((item, index) => (
           <div
             key={index}
-            className="bg-gray-100 shadow-md rounded-xl p-5 border border-gray-200 text-primary"
+            className="bg-white shadow-md rounded-xl p-5 border border-gray-200 text-primary"
           >
           <FontAwesomeIcon icon={item.icon} className="text-blue-600 text-2xl pb-5" />
             <div>
