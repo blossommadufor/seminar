@@ -8,11 +8,15 @@ export default function Lectures() {
       title: "Lecture I",
       speaker: "Evangelist Abiodun Adegoroye",
       description: "God's Sovereignty in the Midst of Suffering",
+      href: "/lecture1.pdf",
+      download: "lecture-1.pdf"
     },
     {
       title: "Lecture II",
       speaker: "Evangelist Felix Ekpenyong",
       description: "God's Sovereignty: The Way, The Truth and The Life",
+      href: "/lecture2.pdf",
+      download: "lecture-2.pdf"
     },
   ];
 
@@ -32,9 +36,11 @@ export default function Lectures() {
           <p className="text-xl pb-4 font-semibold">{lecture.description}</p>
           <p className="pb-10 text-lg">{lecture.speaker}</p>
           <div>
-            <button className="bg-blue-700 text-white px-4 h-12 w-full hover:bg-blue-500">
-              Download Lecture
-            </button>
+      <a href={lecture.href} download={lecture.download}>
+              <button className="bg-blue-700 text-white px-4 h-12 w-full hover:bg-blue-500">
+                Download Lecture
+              </button>
+            </a>
           </div>
         </div>
       </div>

@@ -9,6 +9,7 @@ import Speakers from './components/Speakers'
 import Register from './components/Register'
 import Footer from './components/Footer'
 import Lectures from './components/Lectures'
+import Program from './components/Program'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Tag/>
       <Speakers/>
       <Lectures/>
+      <Program/>
       <Register/>
       <Footer/>
     </div>
