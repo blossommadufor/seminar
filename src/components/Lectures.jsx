@@ -5,14 +5,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Lectures() {
   const lectures = [
     {
-      title: "Lecture I",
+      title: "Lecture 1",
       speaker: "Evangelist Abiodun Adegoroye",
       description: "God's Sovereignty in the Midst of Suffering",
       href: "/lecture1.pdf",
       download: "lecture-1.pdf"
     },
     {
-      title: "Lecture II",
+      title: "Lecture 2",
       speaker: "Evangelist Felix Ekpenyong",
       description: "God's Sovereignty: The Way, The Truth and The Life",
       href: "/lecture2.pdf",
