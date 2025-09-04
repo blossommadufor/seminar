@@ -4,9 +4,9 @@ import React from "react";
 const Speakers = () => {
   const speakers = [
     {
-      name: "Evangelist Samuel Oladipo",
+      name: "Evangelist  Abiodun Adegoroye",
       image: "/assets/abiodun.png",
-      bio: "Evangelist Samuel Oladipo is a dedicated minister of the Church of Christ with over 20 years of service in evangelism, teaching, and church planting across southwestern Nigeria. He is passionate about restoring New Testament Christianity and guiding souls through sound biblical teaching. Samuel has served congregations in Ibadan, Akure, and Lagos, where he has been actively involved in gospel campaigns, youth mentorship, and leadership training for church workers. He is also known for his radio Bible teaching programs, which have reached listeners beyond the church walls. He is married to Sister Abiola, and together they are blessed with three children. Evangelist Oladipo continues to labor faithfully, equipping the saints and spreading the message of Christ’s kingdom.",
+      bio: "Brother Abiodun Adegoroye currently serves as evangelist and guidance/marital counselor. He has done mission work in several African countries like Kenya, Eswatini, Tanzania, Sierra Leone, and Liberia. He served as a lecturer for 18 years @School of Biblical Studies, Jos and as preacher for 13 years @Church of Christ, Kado Abuja. He is happily married and has three children.",
       congregation: "C.O.C Kado",
       contact: "07027864532",
     },
@@ -14,7 +14,7 @@ const Speakers = () => {
     {
       name: "Evangelist Felix Ekpenyong",
       image: "/assets/felix.jpg",
-      bio: "He is married to Sister Aniebiet Felix with two children. He is a servant of God who has devoted the past 18 years of his to preaching the gospel of Christ. He is a seasoned radio and television evangelist, and for over a decade his voice was one of the most loved on the Let the Bible Speak program on Ray Power 100.5 FM, Abuja.He is a passionate teacher of the word of God. Thus, he is one of the seasoned lecturers with the Bear Valley Bible Institute Nigeria. With a burning passion for soul-winning, he initiated the Church of Christ Evangelism and Medical Outreach, also known as Africa Missions, with the mission to touch lives and save souls.He is also the anchor of BOC Raw Truth TV on YouTube — a channel dedicated to proclaiming God's unfiltered truth and exposing religious deception, so that many may walk in the light and freedom of Christ.",
+      bio: "Brother Felix Ekpenyong is married to Sister Aniebiet Felix with two children. He is a servant of God who has devoted the past 18 years of his to preaching the gospel of Christ. He is a seasoned radio and television evangelist, and for over a decade his voice was one of the most loved on the Let the Bible Speak program on Ray Power 100.5 FM, Abuja.He is a passionate teacher of the word of God. Thus, he is one of the seasoned lecturers with the Bear Valley Bible Institute Nigeria. With a burning passion for soul-winning, he initiated the Church of Christ Evangelism and Medical Outreach, also known as Africa Missions, with the mission to touch lives and save souls.He is also the anchor of BOC Raw Truth TV on YouTube — a channel dedicated to proclaiming God's unfiltered truth and exposing religious deception, so that many may walk in the light and freedom of Christ.",
       congregation: "C.O.C Kado",
       contact: "09011223347",
     },

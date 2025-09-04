@@ -34,7 +34,7 @@ const Register = () => {
 
 
   return (
-    <div onSubmit={handleSubmit} className=" md:py-16 lg:py-24 py-10 lg:px-16 md:px-10 px-8 bg-gray-200 flex flex-col lg:flex-row items-center gap-20">
+    <div id="register" onSubmit={handleSubmit} className=" md:py-16 lg:py-24 py-10 lg:px-16 md:px-10 px-8 bg-gray-200 flex flex-col lg:flex-row items-center gap-20">
       <div className="lg:w-3/6">
         <div className="pb-4">
           <h2 className="md:text-4xl text-3xl font-bold text-secondary pb-5 text-center">
