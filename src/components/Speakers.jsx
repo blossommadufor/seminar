@@ -10,11 +10,12 @@ const Speakers = () => {
       congregation: "C.O.C Kado",
       contact: "07027864532",
     },
+
     {
-      name: "Evangelist Chinedu Okafor",
-      image: "/assets/felix.png",
-      bio: "Evangelist Chinedu Okafor is a minister of the Church of Christ based in southeastern Nigeria. With a background in education and theology, he has devoted the last 15 years to preaching the gospel and nurturing local congregations. Chinedu has worked extensively in rural evangelism, helping to establish new congregations in Anambra and Enugu States. His ministry emphasizes Bible study, Christian living, and practical discipleship, ensuring that new converts are grounded in the faith. Beyond pulpit work, he organizes youth Bible camps and marriage seminars, encouraging strong Christian homes. Brother Okafor is married to Sister Nneka, and they are blessed with two daughters. He is deeply committed to advancing the mission of the Church of Christ in Nigeria and beyond.",
-      congregation: "C.O.C University of Abuja",
+      name: "Evangelist Felix Ekpenyong",
+      image: "/assets/felix.jpg",
+      bio: "He is married to Sister Aniebiet Felix with two children. He is a servant of God who has devoted the past 18 years of his to preaching the gospel of Christ. He is a seasoned radio and television evangelist, and for over a decade his voice was one of the most loved on the Let the Bible Speak program on Ray Power 100.5 FM, Abuja.He is a passionate teacher of the word of God. Thus, he is one of the seasoned lecturers with the Bear Valley Bible Institute Nigeria. With a burning passion for soul-winning, he initiated the Church of Christ Evangelism and Medical Outreach, also known as Africa Missions, with the mission to touch lives and save souls.He is also the anchor of BOC Raw Truth TV on YouTube — a channel dedicated to proclaiming God's unfiltered truth and exposing religious deception, so that many may walk in the light and freedom of Christ.",
+      congregation: "C.O.C Kado",
       contact: "09011223347",
     },
   ];
@@ -25,7 +26,7 @@ const Speakers = () => {
         <img
           src={speaker.image}
           alt={speaker.name}
-          className="w-[300px] h- object-cover object-top hidden lg:block"
+          className="w-[300px] h-full object-cover object-top hidden lg:block"
         />
         <div className="py-5 lg:py-8 px-5 lg:px-10">
           <img
