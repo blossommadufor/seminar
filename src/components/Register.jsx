@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import register from "../../public/assets/register.png";
 import { db } from "../../src/firebase";
 import { collection, addDoc, Timestamp } from "firebase/firestore";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -109,14 +111,16 @@ const Register = () => {
             </button>
           </form>
         </div>
-
+       
         {showPopup && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-          <div className="bg-white rounded-xl p-6 text-center shadow-lg w-80">
-            <h2 className="text-xl font-bold text-light mb-4">
-              ✅ Registration Successful!
+          <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="bg-secondary text-gray-200 rounded-xl py-10 px-6 shadow-lg w-80 md:w-[600px] xl:w-[700px] flex flex-col md:flex-row gap-5">
+          <FontAwesomeIcon icon={faCheckCircle} className="text-4xl text-light"/>
+            <div>
+            <h2 className="text-xl font-bold mb-4">
+               Registration Successful!
             </h2>
-            <p className="text-gray-600 mb-6">
+            <p className="mb-6">
               Thank you for registering. We look forward to seeing you.
             </p>
             <button
@@ -125,6 +129,7 @@ const Register = () => {
             >
               Close
             </button>
+            </div>
           </div>
         </div>
       )}
@@ -139,40 +144,3 @@ const Register = () => {
 
 export default Register;
 
-{
-  /* <form onSubmit={handleSubmit} className="p-4 space-y-4">
-      <input
-        id="name"
-        type="text"
-        placeholder="Full Name"
-        value={formData.name}
-        onChange={handleChange}
-        required
-        className="border p-2 w-full"
-      />
-      <input
-        id="email"
-        type="email"
-        placeholder="Email"
-        value={formData.email}
-        onChange={handleChange}
-        required
-        className="border p-2 w-full"
-      />
-      <input
-        id="phone"
-        type="tel"
-        placeholder="Phone Number"
-        value={formData.phone}
-        onChange={handleChange}
-        required
-        className="border p-2 w-full"
-      />
-      <button
-        type="submit"
-        className="bg-blue-600 text-white px-4 py-2 rounded"
-      >
-        Register
-      </button>
-    </form> */
-}
