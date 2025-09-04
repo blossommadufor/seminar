@@ -34,14 +34,14 @@ const Speakers = () => {
             alt={speaker.name}
             className="w-[150px] h-[150px] rounded-full object-cover object-top lg:hidden mb-5"
           />
-          <h3 className="text-xl lg:text-2xl font-semibold text-secondary">
+          <h3 className="text-xl lg:text-2xl pb-3 font-semibold text-secondary">
             {speaker.name}
           </h3>
-          <div className="flex gap-2 mb-5 lg:mt-1">
+          {/* <div className="flex gap-2 mb-5 lg:mt-1">
             <p className="text-gray-500">{speaker.congregation}</p>
             <p className="text-gray-500">|</p>
             <p className="text-gray-500">{speaker.contact}</p>
-          </div>
+          </div> */}
           <p className="leading-relaxed">{speaker.bio}</p>
         </div>
       </div>
